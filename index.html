@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <title >sam iz dat archive</title>
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+    <script src="script.js" defer></script>
+</head>
+
+<!--Sam iz Dat: (independent/underground) publications by Chinese-speaking Creators, 
+over 240 titles of curated Samizdat from Chinese-speaking creators were presented 
+at Rehearsal Art Book Fair, also in the US for the very first time Sep 15-16,2023.-->
+
+
+<body>
+<div class="headerWrapper">
+    <div class="menu-wrapper">
+        <div class="buttons-container">
+            <button onclick="aboutPopup()">about</button>
+            <button onclick="pressPop()">press</button>
+        </div>
+        <div style="text-align: center;"><h1>Sam iz Dat titles archive</h1></div>
+        <div style="display: flex; justify-content: flex-end">
+        <a href="https://rehearsalartbookfair.org" target="_blank">
+            <button class="RABF">Rehearsal Artbook Fair</button>
+        </a>
+        </div>
+    </div>
+
+    <script>
+ // Function to show the about popup
+ function aboutPopup() {
+        var aboutPop = document.getElementById("aboutPop");
+        var pressPop = document.getElementById("pressPop");
+
+        // Check if press popup is open; if so, close it
+        if (pressPop.classList.contains("show")) {
+            pressPop.classList.remove("show");
+        }
+
+        // Toggle the about popup
+        aboutPop.classList.toggle("show");
+    }
+
+    // Function to hide the about popup
+    function closeAboutPopup() {
+        var aboutPop = document.getElementById("aboutPop");
+        aboutPop.classList.remove("show");
+    }
+
+    // Function to show the press popup
+    function pressPop() {
+        var pressPop = document.getElementById("pressPop");
+        var aboutPop = document.getElementById("aboutPop");
+
+        // Check if about popup is open; if so, close it
+        if (aboutPop.classList.contains("show")) {
+            aboutPop.classList.remove("show");
+        }
+
+        // Toggle the press popup
+        pressPop.classList.toggle("show");
+    }
+
+    // Function to hide the press popup
+    function closePressPopup() {
+        var pressPop = document.getElementById("pressPop");
+        pressPop.classList.remove("show");
+    }
+</script>
+
+    <div class="aboutPop" id="aboutPop">
+        <div>
+            <img class="aboutPoster" src="https://freight.cargo.site/w/4500/q/94/i/bad222cd10dfa8d5e0268130189b218aa34ce58d171098c72e49504c3433305b/Poster-2.jpg">
+        </div>
+        <div class="aboutText">
+            <button type="button" class="closeaboutPop" onclick="closeAboutPopup()">×</button>
+            <div class="aboutabout">
+            <h1>Sam iz Dat:<br>Sep 15-16, 2023</h1><br>
+            <h2>(independent/underground) publications by Chinese-speaking Creators, over 240 titles of curated Samizdat from Chinese-speaking creators will be presented at Rehearsal Art Book Fair, also in the US for the very first time. This signifies our appreciation for the consistent practice of bookmaking as personal Rehearsals and Revolutions. We aspire for her significance and impact to endure far beyond the mere existence of the exhibition, leaving behind valuable reference materals for future research.</h2>
+            </div>
+        </div>
+    </div>
+
+<div class="pressPop" id="pressPop">
+    <button type="button" class="closepressPop" onclick="closePressPopup()">×</button>
+    <div class="press-wrapper">
+    <div class="pressList">
+        <h1><a href="https://hyperallergic.com/842204/rehearsal-art-book-fair-nyc-september-2023" target="_blank">Rehearsal Art Book Fair Is Bringing a Book Fair Back to Books</a></h1>
+        <h2>Hyperallergic, September 1, 2023</h2>
+    </div>
+    <div class="pressList">
+        <h1><a href="https://hyperallergic.com/841510/your-a-z-guide-to-new-york-city-september-2023-art-fairs/" target="_blank">Your A-Z Guide to New York City&apos;s September Art Fairs</a></h1>
+        <h2>Hyperallergic, September 1, 2023</h2>
+    </div>
+    <div class="pressList">
+        <h1><a href="https://cultbytes.com/a-rebellion-against-uncertainty-rehearsal-art-book-fair/" target="_blank">A Rebellion Against Uncertainty, Rehearsal Art Book Fair</a> by Anna Mikaela Ekstrand</h1>
+        <h2>Cultbytes, August 9, 2023</h2>
+    </div>
+    <div class="pressList">
+        <h1><a href="https://www.artforum.com.cn/diary/14778" target="_blank">共摊同言</a>  文／刘笑容</h1>
+        <h2>Artforum, October 5, 2023</h2>
+    </div>
+    <div class="pressList">
+        <h1><a href="https://www.instagram.com/p/CyaFQZpuPf2/?utm_source=ig_web_copy_link" target="_blank">from the China Underground: Creativity, Censorship & Capitalisma talk with Shisi Huang (Bungee Space) & Jiaoyang Li（Accent Sisters）</a></h1>
+        <h2>Hosted by Young China Watchers NYC, October 18, 2023 @ Manhattan Mandarin
+        </h2>
+    </div>
+    <div class="pressList">
+        <h1><a href="https://theinitium.com/zh-Hans/article/20240121-culture-rehearsal-book-fair-new-york-chinese-and-international-independant-publishing" target="_blank">在纽约办一次中文独立书展：飘洋过海的地下出版物，和两家离散华人的纽约书店</a> by Ina Yang</h1>
+        <h2>端傳媒Initium Media, January 21, 2024</h2>
+    </div>
+    </div>
+</div>
+
+    <div class="listHeader">  
+            <h1><div>书目 Title</div></h1>
+            <h2><div>艺术家 Artist</div></h2>
+            <h2><div>出版信息</div></h2>
+    </div>            
+</div>
+
+<div class="footer">
+    <div class="search-wrapper">
+        <input type="text" class="search" id="search" placeholder="search title/artist/publisher" data-search>
+    </div>
+    <button class="refresh" onclick="location.reload()">reset search</button>
+    <button class="toTop" onclick="topFunction()">back to top</button>
+</div>
+
+<div class="titlelist" id="titlelist" data-title-container>
+<template data-title-template>
+
+    <details class="list" id="list">
+    <summary>
+        <div class="titleColumn">  
+            <h1><div class="titleCN" data-titleCN></div>
+            <div class="titleEN" data-titleEN></div></h1>
+        </div>
+        <h2><div class="artist" data-artist></div></h2>
+        <h2><div class="infoCN" data-infoCN></div></h2>            
+    </summary>
+
+    <div class="detail" id="detail">
+        <div class="intro"> 
+           <h3><div class="introCN" data-introCN></div></h3>
+           <h5><div class="introEN" data-introEN></div></h5>
+        </div>
+        <div></div>
+        <div class="info">
+            <h2><div class="infoEN" data-infoEN></div></h2>
+        </div>
+    </div> 
+</details>
+
+</template>
+</div>
+
+
+
+</body>
+</html>
