@@ -1,5 +1,5 @@
-@font-face{ font-family: Newsreader; src: url('fonts/Newsreader/Newsreader-VariableFont_opsz,wght.ttf') format(truetype);}
-@font-face{ font-family: Newsreader_italic; src: url('fonts/Newsreader/Newsreader-Italic-VariableFont_opsz,wght.ttf') format(truetype);} ;
+@font-face{ font-family: Newsreader; src: url('Fonts/Newsreader/Newsreader-VariableFont_opsz,wght.ttf') format(truetype);}
+@font-face{ font-family: Newsreader_italic; src: url('Fonts/Newsreader/Newsreader-Italic-VariableFont_opsz,wght.ttf') format(truetype);} ;
 
 @font-face{ font-family: NotoSerifSC_black; src: url('Fonts/Noto_Serif_SC/NotoSerifSC-Black.otf') format(opentype)}
 @font-face{ font-family: NotoSerifSC_bold; src: url('Fonts/Noto_Serif_SC/NotoSerifSC-Bold.otf') format(opentype)}
