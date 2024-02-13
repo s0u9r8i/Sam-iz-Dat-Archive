@@ -7,9 +7,9 @@ the mere existence of the exhibition, leaving behind valuable reference materals
 TO BRING A BOOK FAIR BACK TO BOOKS.
 Rehearsal Art Book Fair, taking place on Sep 15 and 16, 2023 in New York City, seeks to explore and present 
 the essence of independent art and literary publishing within highly capitalized and/or censored contexts.
-visit https://rehearsalartbookfair.org/ for more info
 
-Team:
+Visit https://rehearsalartbookfair.org/ for more info.
+
 Organizer/Director
 Shisi Huang, Bungee Space
 Jiaoyang Li, Accent Sisters
