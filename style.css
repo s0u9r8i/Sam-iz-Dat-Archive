@@ -1,10 +1,4 @@
-@font-face{ font-family: NotoSerifSC_black; src: url('../Sam-iz-Dat-Archive/Fonts/Noto_Serif_SC/NotoSerifSC-Black.otf') format(opentype)}
-@font-face{ font-family: NotoSerifSC_bold; src: url('../Sam-iz-Dat-Archive/Fonts/Noto_Serif_SC/NotoSerifSC-Bold.otf') format(opentype)}
-@font-face{ font-family: NotoSerifSC_extraLight; src: url('../Sam-iz-Dat-Archive/Fonts/Noto_Serif_SC/NotoSerifSC-ExtraLight.otf') format(opentype)}
-@font-face{ font-family: NotoSerifSC_light; src: url('../Sam-iz-Dat-Archive/Fonts/Noto_Serif_SC/NotoSerifSC-Light.otf') format(opentype)}
-@font-face{ font-family: NotoSerifSC_medium; src: url('../Sam-iz-Dat-Archive/Fonts/Noto_Serif_SC/NotoSerifSC-Medium.otf') format(opentype)}
-@font-face{ font-family: NotoSerifSC_regular; src: url('../Sam-iz-Dat-Archive/Fonts/Noto_Serif_SC/NotoSerifSC-Regular.otf') format(opentype)}
-@font-face{ font-family: NotoSerifSC_semiBold; src: url('../Sam-iz-Dat-Archive/Fonts/Noto_Serif_SC/NotoSerifSC-SemiBold.otf') format(opentype)}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200;300;400;500;600;700;900&display=swap');
 
 * {
     margin: 0;
@@ -13,32 +7,42 @@
 }
 
 h1 {
-    font-family: NotoSerifSC_semiBold;
+    font-family: "Noto Serif SC", serif;
+    font-weight: 600;
+    font-style: normal;
     font-size: 1.2rem;
     line-height: 1.6;
 }
 
 h2 {
-    font-family: NotoSerifSC_light;
+    font-family: "Noto Serif SC", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1.2rem;
     line-height: 1.6;
 }
 
 h3 {
-    font-family: NotoSerifSC_light;
+    font-family: "Noto Serif SC", serif;
+    font-weight: 350;
+    font-style: normal;
     font-size: 1rem;
     line-height: 1.6;
 }
 
 h4{
-    font-family: NotoSerifSC_light;
+    font-family: "Noto Serif SC", serif;
+    font-weight: 300;
+    font-style: normal;
     font-weight: 500;
     font-size: 1rem;
     line-height: 1.6;
 }
 
 h5{
-    font-family: NotoSerifSC_regular;
+    font-family: "Noto Serif SC", serif;
+    font-weight: 400;
+    font-style: normal;
     font-size: 1rem;
     line-height: 1.6;
 }
