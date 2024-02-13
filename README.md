@@ -10,12 +10,12 @@ the essence of independent art and literary publishing within highly capitalized
 
 Visit https://rehearsalartbookfair.org/ for more info.
 
-Organizer/Director
+Organizer/Director:
 Shisi Huang, Bungee Space
 Jiaoyang Li, Accent Sisters
 
-Visual Designer/Editor
+Visual Designer/Editor:
 Sixuan Tong
 
-Website Designer/Project Manager
+Website Designer/Project Manager:
 Shuyu Peng
