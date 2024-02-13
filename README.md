@@ -11,7 +11,7 @@ the essence of independent art and literary publishing within highly capitalized
 Visit https://rehearsalartbookfair.org/ for more info.
 
 Organizer/Director:
-Shisi Huang, Bungee Space
+Shisi Huang, Bungee Space &
 Jiaoyang Li, Accent Sisters
 
 Visual Designer/Editor:
