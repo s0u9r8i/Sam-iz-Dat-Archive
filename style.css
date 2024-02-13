@@ -1,10 +1,10 @@
-@font-face{ font-family: NotoSerifSC_black; src: url('../Fonts/Noto_Serif_SC/NotoSerifSC-Black.otf') format(opentype)}
-@font-face{ font-family: NotoSerifSC_bold; src: url('Fonts/Noto_Serif_SC/NotoSerifSC-Bold.otf') format(opentype)}
-@font-face{ font-family: NotoSerifSC_extraLight; src: url('Fonts/Noto_Serif_SC/NotoSerifSC-ExtraLight.otf') format(opentype)}
+@font-face{ font-family: NotoSerifSC_black; src: url('../Sam-iz-Dat-Archive/Fonts/Noto_Serif_SC/NotoSerifSC-Black.otf') format(opentype)}
+@font-face{ font-family: NotoSerifSC_bold; src: url('../Sam-iz-Dat-Archive/Fonts/Noto_Serif_SC/NotoSerifSC-Bold.otf') format(opentype)}
+@font-face{ font-family: NotoSerifSC_extraLight; src: url('../Sam-iz-Dat-Archive/Fonts/Noto_Serif_SC/NotoSerifSC-ExtraLight.otf') format(opentype)}
 @font-face{ font-family: NotoSerifSC_light; src: url('../Sam-iz-Dat-Archive/Fonts/Noto_Serif_SC/NotoSerifSC-Light.otf') format(opentype)}
-@font-face{ font-family: NotoSerifSC_medium; src: url('Fonts/Noto_Serif_SC/NotoSerifSC-Medium.otf') format(opentype)}
-@font-face{ font-family: NotoSerifSC_regular; src: url('Fonts/Noto_Serif_SC/NotoSerifSC-Regular.otf') format(opentype)}
-@font-face{ font-family: NotoSerifSC_semiBold; src: url('Fonts/Noto_Serif_SC/NotoSerifSC-SemiBold.otf') format(opentype)}
+@font-face{ font-family: NotoSerifSC_medium; src: url('../Sam-iz-Dat-Archive/Fonts/Noto_Serif_SC/NotoSerifSC-Medium.otf') format(opentype)}
+@font-face{ font-family: NotoSerifSC_regular; src: url('../Sam-iz-Dat-Archive/Fonts/Noto_Serif_SC/NotoSerifSC-Regular.otf') format(opentype)}
+@font-face{ font-family: NotoSerifSC_semiBold; src: url('../Sam-iz-Dat-Archive/Fonts/Noto_Serif_SC/NotoSerifSC-SemiBold.otf') format(opentype)}
 
 * {
     margin: 0;
